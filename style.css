@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Poetsen One", sans-serif;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(65, 180, 27);
+}
+.main{
+    background-image: url(korzina.JPG);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: Georgia, serif;
+}
+.main h2 img{
+    width: 250px;
+    height: 150px;
+    object-position: center top;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.68);
+-webkit-box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.68);
+-moz-box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.68);
+transition: 0.5s;
+}
+.about h1{
+    font-weight: 700; 
+}
+.btn1{
+    height: 45px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(65, 180, 27);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
